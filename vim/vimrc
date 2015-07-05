@@ -157,8 +157,6 @@ func! WordProcessorMode()
 endfu
 com! WP call WordProcessorMode()
 
-"Auto Save file on leaving insert mode.
-autocmd InsertLeave * if expand('%') != '' | update | endif
 " These lines setup the environment to show graphics and colors correctly.
 set t_Co=256
 
