@@ -2,7 +2,7 @@ sudo apt-get install python-pip git zsh vim vim-gnome cmake python-dev python3-d
 
 git clone https://github.com/Lokaltog/powerline-fonts --depth=1
 cd powerline-fonts
-sh install.sh
+./install.sh
 cd .. && rm powerline-fonts -r
 
 pip install --user git+git://github.com/Lokaltog/powerline
